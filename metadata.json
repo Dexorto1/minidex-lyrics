@@ -1,0 +1,26 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "user@example.com",
+                "Name": "dexorto"
+            }
+        ],
+        "Category": "Multimedia",
+        "Description": "Music player with real-time synchronized lyrics, MPRIS controls, and ambient album art",
+        "Icon": "multimedia-audio-player",
+        "Id": "org.kde.plasma.minidex-lyrics",
+        "Name": "minidex-lyrics",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0",
+        "Website": "https://github.com/dexorto"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.multimedia"
+    ]
+}
